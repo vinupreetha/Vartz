@@ -1,2 +1,2 @@
-Vartz
+Vartz - 
 Its a portfolio website
