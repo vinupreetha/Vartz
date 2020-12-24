@@ -55,7 +55,7 @@
 	}
   .jumbotron {
    /* background:linear-gradient(to right, #333 , #000);	*/
-   background:url(../images/03c61adb9c6acf289a9b4a06c18cbe36.jpg) right;
+   background:url(../images/03c61adb9c6acf289a9b4a06c18cbe36.jpg) left;
 
     color: #fff;
    padding:35px 20px !important;
@@ -291,7 +291,7 @@ dd {
     }
 	
   }
-  @media screen and (max-width: 480px) {
+  @media all and (max-width: 600px) {
 	  .jumbotron h1{
 	font-size: 3.2em !important;
 	font-weight:bold !important;
@@ -299,17 +299,28 @@ dd {
 	font-family:"Josefin Sans ExtraLight", "Josefin Sans"  ;
 	letter-spacing: 0.2em;
 	position: relative;
+	
    
 }
 .jumbotron p{
 	font-size:1.2em !important;
 		 color:#ccc;
 		}
-  }
-  
+		
+.col-md-12 img {
+    width: 100% !important;
+	height:auto;
+}
+
+}
   .carousel-control {
-  padding-top:10%;
-  width:5%;
+  padding:0 ;
+  width:3%;
+
+  background-color:#000;
+}
+.carousel-inner a{
+	font-size:24px;
 }
 .well{
 	min-height:350px;
