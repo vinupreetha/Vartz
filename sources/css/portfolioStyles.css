@@ -302,6 +302,10 @@ dd {
 	
    
 }
+.jumbotron {
+   /* background:linear-gradient(to right, #333 , #000);	*/
+   background:url(../images/03c61adb9c6acf289a9b4a06c18cbe36.jpg) center;
+}
 .jumbotron p{
 	font-size:1.2em !important;
 		 color:#ccc;
@@ -315,18 +319,31 @@ dd {
 	padding:0;
 
 }
-.logo  img{
-	width:250px;
-	height:auto;
 
-}
+
 .paintings h1{
 	color:#900;
-	font-size:3em;
+	font-size:2em;
 	box-shadow:#000 1px solid;	
 }
+.logo img{
+	width:80%;
+	height:auto;
+	}
+	 .panel {
+		 margin:5px;
+	 }
+	 .panel-body{
+		 padding:5px;
+	 }
 
 }
+.logo {
+	width:100%;
+	text-align:center;
+
+}
+
 .row{
 	margin:0;
 }
