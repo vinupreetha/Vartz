@@ -306,21 +306,37 @@ dd {
 	font-size:1.2em !important;
 		 color:#ccc;
 		}
-		
+
 .col-md-12 img {
-    width: 100% !important;
+    width: 100%;
 	height:auto;
 }
+.well, .col-md-12{
+	padding:0;
 
+}
+.logo  img{
+	width:250px;
+	height:auto;
+
+}
+.paintings h1{
+	color:#900;
+	font-size:3em;
+	box-shadow:#000 1px solid;	
+}
+
+}
+.row{
+	margin:0;
 }
   .carousel-control {
   padding:0 ;
-  width:3%;
-
-  background-color:#000;
+  width:5%;
 }
-.carousel-inner a{
-	font-size:24px;
+a.carousel-control{
+	font-size:5em;
+	opacity:100;
 }
 .well{
 	min-height:350px;
