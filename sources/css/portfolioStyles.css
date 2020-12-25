@@ -361,8 +361,9 @@ a.carousel-control{
 .paintings img{
 	border:solid #333 1px;
 }
-.paintings h1{
-	color:#900;
-	font-size:5em;
-	box-shadow:#000 1px solid;	
+.col-sm-12 h1{
+	color:#f4511e;
+	font-size:3em;
+	box-shadow:#000 1px solid;
+	
 }
