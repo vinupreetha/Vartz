@@ -17,10 +17,18 @@
 	font-family:"Josefin Sans",sans-serif;
 	text-align:center ;
   }
+   
+   .jumbotron h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #303030;
+    font-family:"Josefin Sans",sans-serif;
+	text-align:center ;
+  }
    h3 {
     font-size: 2rem;
     text-transform: uppercase;
-    color: #ccc;
+    color: #666;
     font-family:"Josefin Sans",sans-serif;
 	text-align:center ;
   }
