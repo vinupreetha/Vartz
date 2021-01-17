@@ -20,7 +20,7 @@
    h3 {
     font-size: 2rem;
     text-transform: uppercase;
-    color: #fff;
+    color: #ccc;
     font-family:"Josefin Sans",sans-serif;
 	text-align:center ;
   }
@@ -46,7 +46,7 @@
 	letter-spacing: 0.3em;
 	position: relative;
 	padding-top:25px;
-	color:#000;
+	color:#fff;
    
 }
 
@@ -55,7 +55,7 @@
 	}
   .jumbotron {
    /* background:linear-gradient(to right, #333 , #000);	*/
-   background:url(../images/03c61adb9c6acf289a9b4a06c18cbe36.jpg) left;
+   background:url(../images/bg.jpg) center;
 
     color: #fff;
    padding:35px 20px !important;
@@ -138,7 +138,7 @@
 
   .navbar {
     margin-bottom: 0;
-    background:linear-gradient(to right,  #1db8e8, #06019c);
+    background:linear-gradient(to right,  #666, #000);
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -212,7 +212,7 @@ dd {
 }
 	 .jumbotron p.header{
 		 font-size:1.3em;
-		 color:#000;
+		 color:#ccc;
 		 line-height:1.5;
 		 font-family:"Josefin Sans Medium";	 
 		  }
