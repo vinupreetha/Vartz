@@ -1,0 +1,47 @@
+.container,.container_game{
+	padding:10px;
+	border:solid #ccc 1px;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+.button-div{
+	text-align:center;
+	padding:10px;
+}
+.button-div button{
+	margin:10px;
+}
+.game{
+	width:90%;
+	text-align:center;
+	
+}
+h1{font-size:35px; text-align:center}
+h2,h3{font-size:20px; text-align:center}
+#result{height:60px; width:60%;}
+.flex-container{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	padding:10px;
+}
+
+#winner{
+	width:50%;
+}
+.bg-game img{
+	width:120px;
+	height:150px;
+	padding:10px;
+}
+.bg-game{
+	width:50%;
+	justify-content:space-around;
+	float: left;
+    background-color: green;
+	color:#fff;
+	min-height:300px;
+	padding:10px;
+	border:#00C 1px dashed
+	
+}

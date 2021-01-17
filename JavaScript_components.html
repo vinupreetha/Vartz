@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<title>Javascript-Practise</title>
+
+<link href="practise.css" rel="stylesheet" type="text/css">
+<!--<script type="text/x-javascript" src="objects.js"></script>
+<script src="practise.js" type="text/javascript"></script>-->
+
+<!--<script src="loops_Datatypes.js" type="text/javascript" ></script>-->
+</head>
+
+
+<body>
+
+<div>
+
+
+<div class="container"><h2>Component 1: Calculate Your Age</h2>
+
+<div class="button-div"><button class="btn btn-primary" name="click me" value="click me" type="button" onClick="calculation()" >Click me</button>
+
+<button class="btn btn-danger" onClick="reset()"  type="button" >Reset</button></div>
+<div class="container" id="result"></div>
+</div>
+
+</div>
+<div class="container"><h2>Component 2-  Image Generator</h2><div class="button-div"><button name="" class="btn btn-success" onClick="generate()" type="button" >Generate</button></div>
+<div class="flex-container" id="flex">
+</div>
+</div>
+</div>
+
+<div class="container" id="rockgame"><h2>Component 3- Play  Rock,paper,scissors</h2>
+<div class="flex-container"><div > <img id="rock"  src="rock.jpg" width="150" height="150" onClick="rpsGame(this)" > </div><div ><img id="paper" onClick="rpsGame(this)"   src="paper.jpg" width="150" height="150"></div><div><img id="scissors" onClick="rpsGame(this)"  src="images.jpg" width="150" height="150"></div></div>
+
+<div id="winner" class="container"></div></div>
+<div class="container"><h2>Component 4-  Change button colors</h2><div class="button-div">
+<form action="" method="get">
+<select name="select" id="select" onChange="colorChange(this)"><option value="random">Random</option><option value="yellow">Yellow</option><option value="red">Red</option><option value="green">green</option><option value="reset">Reset</option></select>  </form>
+<button  class="btn btn-primary" value="btn1">Fb</button>
+<button class="btn btn-warning"  value="btn2">Yahoo</button>
+<button  class="btn btn-success" value="btn3">Youtube</button>
+<button class="btn btn-danger"  value="btn4">Google</button></div>
+  </div>
+  
+  <div class="container">
+  <h2>Component 5-  Blackjack</h2><span><h2>Rules to follow when playing online blackjack</h2>
+Your aim is to get a score of 21 or a higher value than the dealer.
+If your score exceeds 21 then you lose. This is called 'bust.'</span>
+  <h3><span id="blackjack">Let's play</span></h3>
+	 <div class="container game"> 
+        <div class="bg-game" id="yourbox"><h2>You: <span id="yourresult">0</span></h2></div>
+        <div class="bg-game" id="dealerbox"><h2>Dealer: <span id="dealerresult">0</span></h2></div>
+  </div>
+   <div class="game"> 
+   		<div class="button-div"><button id="btnhit" class="btn btn-danger">Hit</button><button id="btnstand" class="btn btn-warning">Stand</button><button id="btndeal" class="btn btn-success">Deal</button></div>
+   </div>
+  </div>
+  <div class="container"> 
+  <table width="200" border="1" align="center" class="table-condensed" >
+  <tr >
+    <th>Wins</th>
+    <th>Loses</th>
+    <th>Draws</th>
+  </tr>
+  <tr>
+    <td><span id="win">0</span></td>
+    <td><span id="loss">0</span></td>
+    <td><span id="draws">0</span></td>
+  </tr>
+  
+</table>
+
+  </div>
+  <script type="text/x-javascript" src="practise2.js"></script>
+</body>
+</html>
