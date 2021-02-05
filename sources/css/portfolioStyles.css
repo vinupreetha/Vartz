@@ -4,10 +4,10 @@
 	    font-family: "Josefin Sans",sans-serif ;
 		font-size:1.5em;
 	line-height: 1.8;
-	color: #666666;
+	color: #333333;
 	/* [disabled]font-size:1.5em; */
 	text-align:left;
-	
+	 background:url(../images/banner1.jpg) repeat-x fixed;
   }
   h2 {
     font-size: 2.5rem;
@@ -21,14 +21,14 @@
    .jumbotron h3 {
     font-size: 2rem;
     text-transform: uppercase;
-    color: #ccc;
+    color: #333;
     font-family:"Josefin Sans",sans-serif;
 	text-align:center ;
   }
    h3 {
     font-size: 2rem;
     text-transform: uppercase;
-    color: #666;
+    color: #333;
     font-family:"Josefin Sans",sans-serif;
 	text-align:center ;
   }
@@ -54,7 +54,7 @@
 	letter-spacing: 0.3em;
 	position: relative;
 	padding-top:25px;
-	color:#fff;
+	color:#000;
    
 }
 
@@ -63,13 +63,11 @@
 	}
   .jumbotron {
    /* background:linear-gradient(to right, #333 , #000);	*/
-   background:url(../images/bg.jpg) center;
-
-    color: #fff;
+  
+    color: #000;
    padding:35px 20px !important;
     margin-bottom:10px;
- 
-	
+	background-color:transparent;
   }
   .container-fluid {
     padding: 10px;
@@ -83,9 +81,7 @@
 	 width:400px;
 	 height:300px;
  }
-  .bg-grey {
-    background-color: #f6f6f6;
-  }
+ 
   .logo-small {
     color: #f4511e;
     font-size: 50px;
@@ -106,7 +102,7 @@
     font-style: normal;
   }
   .panel {
-    border: 1px solid #fbc302; 
+    border: 1px solid #3a3a3a; 
     border-radius:0 !important;
     transition: box-shadow 0.5s;
 	min-height:270px;
@@ -125,7 +121,7 @@
   }
   .panel-heading {
     color: #fff !important;
-  background-color:#f4511e !important;
+  background-color:#3a3a3a !important;
     padding: 10px;
 	margin-top:-5px;
     border-bottom: 1px solid transparent;
@@ -220,7 +216,7 @@ dd {
 }
 	 .jumbotron p.header{
 		 font-size:1.3em;
-		 color:#ccc;
+		 color:#333;
 		 line-height:1.5;
 		 font-family:"Josefin Sans Medium";	 
 		  }
@@ -331,12 +327,12 @@ dd {
    
 }
 .jumbotron {
-   /* background:linear-gradient(to right, #333 , #000);	*/
-   background:url( background:url(../images/bg.jpg) center;
+   /* background:linear-gradient(to right, #333 , #000);	
+   background:url( background:url(../images/banner1.jpg)  repeat-x;*/
 }
 .jumbotron p{
 	font-size:1.2em !important;
-		 color:#ccc;
+		 color:#333;
 		}
 
 .col-md-12 img {
@@ -364,6 +360,7 @@ dd {
 	 }
 	 .panel-body{
 		 padding:5px;
+		
 	 }
 
 }
@@ -386,6 +383,7 @@ a.carousel-control{
 }
 .well{
 	min-height:350px;
+	background-color:#000;
 }
 .paintings img{
 	border:solid #333 1px;
@@ -396,3 +394,12 @@ a.carousel-control{
 	box-shadow:#000 1px solid;
 	
 }
+ .panel{
+	 background-color:transparent;
+	 border:solid 1px 3a3a3a;
+		
+	 }
+	 dd a{
+		 color:#600;
+		 text-decoration:underline;
+	 }
