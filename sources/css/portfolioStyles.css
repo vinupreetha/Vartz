@@ -203,10 +203,10 @@ dt {
  
 }
 .certification dt{
-	width:35%;
+	width:55%;
 }
 .certification dd{
-	width:65%;
+	width:45%;
 }
 dd {
   float: left;
@@ -288,6 +288,17 @@ dd {
       -webkit-transform: translateY(0%);
     }
   }
+    @media all and (max-width: 1010px) {
+	   .col-md-12 img {
+   width: 100%;
+	height:auto;
+	clear:both;
+	   }
+	   .logo img {
+    width: 100%;
+	height:auto;
+}
+   }
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
@@ -297,8 +308,17 @@ dd {
       width: 100%;
       margin-bottom: 35px;
     }
+	 .col-md-12 img {
+    width: 80%;
+	height:auto;
+	   }
+	    .logo img {
+    width: 50%;
+	height:auto;
+}
 	
   }
+ 
   @media all and (max-width: 600px) {
 	  .jumbotron h1{
 	font-size: 3.2em !important;
@@ -322,6 +342,11 @@ dd {
 .col-md-12 img {
     width: 100%;
 	height:auto;
+	clear:both;
+}
+.logo img {
+    width: 40%;
+	height:auto;
 }
 .well, .col-md-12{
 	padding:0;
@@ -333,10 +358,7 @@ dd {
 	font-size:2em;
 	box-shadow:#000 1px solid;	
 }
-.logo img{
-	width:80%;
-	height:auto;
-	}
+
 	 .panel {
 		 margin:5px;
 	 }
