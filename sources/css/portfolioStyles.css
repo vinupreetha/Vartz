@@ -7,7 +7,8 @@
 	color: #333333;
 	/* [disabled]font-size:1.5em; */
 	text-align:left;
-	 background:url(../images/banner1.jpg) repeat-x fixed;
+	 background:url(../images/banner1.jpg) repeat-x fixed ;
+	 
   }
   h2 {
     font-size: 2.5rem;
@@ -188,7 +189,7 @@
 }
 dt {
   float: left;
-  width: 55%;
+  width: 50%;
   /* adjust the width; make sure the total of both is 100% */
    padding: 0 10px;
   margin: 0;
@@ -199,14 +200,14 @@ dt {
  
 }
 .certification dt{
-	width:55%;
+	width:40%;
 }
 .certification dd{
-	width:45%;
+	width:60%;
 }
 dd {
   float: left;
-  width: 45%;
+  width: 50%;
   /* adjust the width; make sure the total of both is 100% */
   background: #dd0
    padding: 0;
@@ -315,12 +316,15 @@ dd {
 	height:auto;
 	margin-top:10px;
 }
-	
+ 
+	 body{
+		  background:url(../images/banner1.jpg) repeat;
+	  }
   }
  
   @media all and (max-width: 600px) {
 	  body{
-		  background-position:fixed;
+		  background:url(../images/banner1.jpg) repeat;
 	  }
 	  .jumbotron h1{
 	font-size: 3.2em !important;
