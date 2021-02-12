@@ -34,6 +34,9 @@ h2,h3{font-size:20px; text-align:center}
 	height:150px;
 	padding:10px;
 }
+.img-gen img{
+	margin:10px;
+}
 .bg-game{
 	width:50%;
 	justify-content:space-around;
@@ -44,4 +47,7 @@ h2,h3{font-size:20px; text-align:center}
 	padding:10px;
 	border:#00C 1px dashed
 	
+}
+.rockimg  img:hover{
+	box-shadow: 1px 3px 10px 2px #9EC2F8;
 }
