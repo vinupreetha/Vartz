@@ -27,6 +27,7 @@ imgg.height=110;
 function rpsGame(yourChoice){
 	var humanchoice, botchoice;
 	humanchoice=yourChoice.id;
+	
 	botchoice=numbertochoice(randomnumber());
 	var results= decidewinner(humanchoice,botchoice);
 	var message = finalmessage(results);
@@ -56,14 +57,20 @@ function decidewinner(yourChoice,computerChoice){
 	}
 	
 function finalmessage([yourScore, computerScore]){
+	const winsound= new Audio('sounds/cash.mp3');
+	const lossound= new Audio('sounds/aww.mp3');
 		if(yourScore===0){
+			lossound.play();
 			return {'message':'You Lost','color':'red'}
+			
 		}
 			else if(yourScore===0.5){
 			return{'message':'You Tied','color':'black'}
 			}
 			else {
+				winsound.play();
 			return{'message':'You Won','color':'green'}
+			
 			}
 	}
 function rpsFrontEnd(human,bot,msgg){	
