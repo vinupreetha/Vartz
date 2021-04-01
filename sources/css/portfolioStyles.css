@@ -323,6 +323,11 @@ dd {
 	
    
 }
+	  .logo img{
+	max-width:100%;
+	text-align:center;
+
+}
 .jumbotron {
    /* background:linear-gradient(to right, #333 , #000);	
    background:url( background:url(../images/banner1.jpg)  repeat-x;*/
@@ -361,11 +366,7 @@ dd {
 	  
 
 }
-.logo img{
-	width:100%;
-	text-align:center;
 
-}
 
 .row{
 	margin:0;
