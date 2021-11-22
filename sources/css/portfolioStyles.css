@@ -307,13 +307,13 @@ dd {
 
  
 	 body{
-		  background:url(../images/banner1.jpg) repeat;
+		   background-color:beige;
 	  }
   }
  
   @media all and (max-width: 600px) {
 	  body{
-		  background:url(../images/banner1.jpg) repeat;
+		 background-color:beige;
 	  }
 	  
 	  .jumbotron h1{
